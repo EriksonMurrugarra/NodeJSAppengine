@@ -1,0 +1,11 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",  
+  "author": "Erikson Murrugarra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
