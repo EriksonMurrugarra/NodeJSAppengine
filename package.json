@@ -1,11 +1,16 @@
 {
   "name": "test-nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",  
+  "description": "Test NodeJS AppEngine and DataStore.",
+  "private": true,
+  "main": "server.js",
   "author": "Erikson Murrugarra",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "@google-cloud/datastore": "^1.4.1",
     "express": "4.16.3"
+  },
+  "engines": {
+    "node": "8.x.x"
   }
 }
